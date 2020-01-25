@@ -1,0 +1,100 @@
+.header{
+  background-color: #ffffff;
+  width: 100%;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #cacaca;
+  position: fixed;
+  z-index: 999;
+  box-shadow: rgba(0,0,0,0.18) 0px 2px 4px;
+}
+.menu_bar{
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1020px;
+  display: flex;
+}
+.twitter{
+
+}
+.fa-twitter{
+  font-size: 2.3em;
+  width: 26px;
+  height: 26px;
+  color: rgba(29,161,242,1.00);
+}
+form{
+  margin-left: 40px;
+}
+.search_form{
+  height: 40px;
+  width: 500px;
+  background-color: whitesmoke;
+  border-style: none;
+  border-radius: 20px;
+  padding-left: 50px;
+}
+.search_button{
+  color: #c0c0c0;
+  background-color: transparent;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  left: 280px;
+  top: 18px;
+  width: 40px;
+  -webkit-appearance: none;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 0px 4px 4px 0px;
+  padding: 0px;
+  box-sizing: border-box; 
+}
+.user_page_links{
+  text-align: center;
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 3px;
+}
+.sign_in{
+  text-align: center;
+  margin-left: 150px;
+}
+.sign_in_link{
+  font-weight: bold;
+  color: #00ccff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  text-decoration: none;
+  border-color: #00ccff;
+  display: block;
+  p{
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+  }
+}
+.sign_up{
+  text-align: center;
+  margin-left: 11px;
+}
+.sign_up_link{
+  font-weight: bold;
+  background-color: #00ccff;
+  color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  text-decoration: none;
+  border-color: #00ccff;
+  display: block;
+  p{
+    width: 140px;
+    height: 32px;
+    line-height: 32px;
+  }
+}

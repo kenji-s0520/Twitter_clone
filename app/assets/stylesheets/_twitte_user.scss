@@ -1,0 +1,40 @@
+.twitte{
+  padding-top: 60px;
+  width: 1440px
+}
+.twitte_main{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  h2{
+    font-weight: bold;
+    padding-top: 10px;
+  }
+}
+.user_img{
+  margin: 20px 0 0 10px;
+}
+.default_img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.user_date{
+  padding: 10px 15px 0;
+}
+.user_name{
+  p{
+    font-size: 14px;
+    color: #999999;
+  }
+}
+.user_profile{
+  padding-top: 5px;
+  p{
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
