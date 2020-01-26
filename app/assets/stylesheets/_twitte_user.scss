@@ -1,13 +1,12 @@
-.twitte{
+.twitte_user{
   padding-top: 60px;
-  width: 1440px
+  width: 1440px;
 }
 .twitte_main{
   border-style: solid;
   border-width: 1px;
   border-color: #d8d8d8;
   width: 700px;
-  height: 300px;
   margin: 0 auto;
   h2{
     font-weight: bold;
@@ -24,6 +23,7 @@
 }
 .user_date{
   padding: 10px 15px 0;
+  // display: inline-block;
 }
 .user_name{
   p{
@@ -33,6 +33,7 @@
 }
 .user_profile{
   padding-top: 5px;
+  margin-bottom: 20px;
   p{
     font-size: 16px;
     line-height: 1.3;

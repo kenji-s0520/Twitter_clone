@@ -1,0 +1,41 @@
+.twitte{
+  width: 1440px;
+  // padding-top: 60px;
+}
+.twitte.message{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  h2{
+    font-weight: bold;
+    padding: 0 0 0 15px;
+  }
+}
+.user_date2{
+  display: flex;
+  margin-top: 15px;
+}
+.user_img_message{
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 10px 0 0 10px;
+}
+.default_img_mesaage{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.user_name2 h3{ 
+  font-size: 14px;
+  color: #999999;
+  padding: 2px 0 0 10px;
+}
+.message h4{
+  padding-top: 35px;
+  display: block;
+  margin: 0 10px 15px 10px;
+}

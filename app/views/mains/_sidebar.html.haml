@@ -1,0 +1,17 @@
+.side_bar
+  .side_bar_name
+    = link_to "", class: "side_twitter" do
+      %i.fab.fa-twitter
+    %ul.lists
+      .lists_name
+        -# %li
+        = link_to "/", class: "home_link" do
+          = "Home"
+        -# %li
+        = link_to "/user_index", class: "user_link" do
+          = "User"
+        %li
+          Message
+    %ul.twiite_button
+      %li
+        Twitte
